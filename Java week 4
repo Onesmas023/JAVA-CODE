@@ -1,0 +1,57 @@
+public class Employee {
+    
+    class private String name;
+    private double salary;
+
+    
+    public Employee(String name, double salary) {
+        this.name = name;
+        this.salary = salary;
+    }
+
+    
+    public double getSalary() {
+        return salary;
+    }
+
+    
+    public String getName() {
+        return name;
+    }
+}
+public class Calculator {
+     {
+        return employee.getSalary() * 0.10; 
+    }
+}
+import java.util.Scanner;
+
+public class MainApp {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        
+  System.out.print("Enter employee name: ");
+        String name = scanner.nextLine();
+
+        System.out.print("Enter employee salary: ");
+        double salary = scanner.nextDouble();
+
+        
+  employee = new Employee(name, salary);
+
+       
+   calculator = new Calculator();
+
+        
+        double bonus = calculator.calculateBonus(employee);
+
+       
+        System.out.println("Employee Name: " + employee.getName());
+        System.out.println("Employee Salary: " + employee.getSalary());
+        System.out.println("Employee Bonus (10%): " + bonus);
+
+        
+        scanner.close();
+    }
+}
