@@ -1,0 +1,51 @@
+import java.util.Scanner;
+class StudentRecord {
+    private String studentID;
+    private String name;
+    private String course;
+
+    // Constructor to initialize the fields
+    public StudentRecord(String studentID, String name, String course) {
+        this.studentID = studentID;
+        this.name = name;
+        this.course = course;
+    }
+
+    // Method to display student details
+    public void displayInfo() {
+        System.out.println("Student Details:");
+        System.out.println("Student ID: " + this.studentID);
+        System.out.println("Name      : " + this.name);
+        System.out.println("Course    : " + this.course);
+    }
+}
+
+
+
+public class StudentApp {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        // Prompt user for student ID
+        System.out.print("Enter Student ID: ");
+        String studentID = scanner.nextLine();
+
+        // Prompt user for name
+        System.out.print("Enter Name: ");
+        String name = scanner.nextLine();
+
+        // Prompt user for course
+        System.out.print("Enter Course: ");
+        String course = scanner.nextLine();
+
+        // Create an instance of StudentRecord
+        StudentRecord student = new StudentRecord(studentID, name, course);
+
+        System.out.println(); // Blank line for readability
+
+        // Display student information
+        student.displayInfo();
+
+        scanner.close();
+    }
+}
