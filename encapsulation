@@ -1,0 +1,172 @@
+public class Car {
+    // Private field to represent rental status
+    private boolean isRented;
+
+    // Constructor to initialize rental status
+    public Car() {
+        this.isRented = false; // Initially, the car is available
+    }
+
+    // Getter method for rental status
+    public boolean isRented() {
+        return isRented;
+    }
+
+    // Public method to rent the car
+    public void rentCar() {
+        if (isRented) {
+            System.out.println("The car is already rented. You cannot rent it at this time.");
+        } else {
+            isRented = true; // Update status to rented
+            System.out.println("You have successfully rented the car.");
+        }
+    }
+
+    // Public method to return the car
+    public void returnCar() {
+        if (!isRented) {
+            System.out.println("The car is already available.");
+        } else {
+            isRented = false; // Update status to available
+            System.out.println("You have successfully returned the car.");
+        }
+    }
+
+    // Method to display the car's rental status
+    public void displayRentalStatus() {
+        if (isRented) {
+            System.out.println("The car is currently rented.");
+        } else {
+            System.out.println("The car is available for rent.");
+        }
+    }
+}
+public class Car {
+    // Private field to represent rental status
+    private boolean isRented;
+
+    // Constructor to initialize rental status
+    public Car() {
+        this.isRented = false; // Initially, the car is available
+    }
+
+    // Getter method for rental status
+    public boolean isRented() {
+        return isRented;
+    }
+
+    // Public method to rent the car
+    public void rentCar() {
+        if (isRented) {
+            System.out.println("The car is already rented. You cannot rent it at this time.");
+        } else {
+            isRented = true; // Update status to rented
+            System.out.println("You have successfully rented the car.");
+        }
+    }
+
+    // Public method to return the car
+    public void returnCar() {
+        if (!isRented) {
+            System.out.println("The car is already available.");
+        } else {
+            isRented = false; // Update status to available
+            System.out.println("You have successfully returned the car.");
+        }
+    }
+
+    // Method to display the car's rental status
+    public void displayRentalStatus() {
+        if (isRented) {
+            System.out.println("The car is currently rented.");
+        } else {
+            System.out.println("The car is available for rent.");
+        }
+    }
+}
+public class Car {
+    // Private field to represent rental status
+    private boolean isRented;
+
+    // Constructor to initialize rental status
+    public Car() {
+        this.isRented = false; // Initially, the car is available
+    }
+
+    // Getter method for rental status
+    public boolean isRented() {
+        return isRented;
+    }
+
+    // Public method to rent the car
+    public void rentCar() {
+        if (isRented) {
+            System.out.println("The car is already rented. You cannot rent it at this time.");
+        } else {
+            isRented = true; // Update status to rented
+            System.out.println("You have successfully rented the car.");
+        }
+    }
+
+    // Public method to return the car
+    public void returnCar() {
+        if (!isRented) {
+            System.out.println("The car is already available.");
+        } else {
+            isRented = false; // Update status to available
+            System.out.println("You have successfully returned the car.");
+        }
+    }
+
+    // Method to display the car's rental status
+    public void displayRentalStatus() {
+        if (isRented) {
+            System.out.println("The car is currently rented.");
+        } else {
+            System.out.println("The car is available for rent.");
+        }
+    }
+}
+public class Car {
+    // Private field to represent rental status
+    private boolean isRented;
+
+    // Constructor to initialize rental status
+    public Car() {
+        this.isRented = false; // Initially, the car is available
+    }
+
+    // Getter method for rental status
+    public boolean isRented() {
+        return isRented;
+    }
+
+    // Public method to rent the car
+    public void rentCar() {
+        if (isRented) {
+            System.out.println("The car is already rented. You cannot rent it at this time.");
+        } else {
+            isRented = true; // Update status to rented
+            System.out.println("You have successfully rented the car.");
+        }
+    }
+
+    // Public method to return the car
+    public void returnCar() {
+        if (!isRented) {
+            System.out.println("The car is already available.");
+        } else {
+            isRented = false; // Update status to available
+            System.out.println("You have successfully returned the car.");
+        }
+    }
+
+    // Method to display the car's rental status
+    public void displayRentalStatus() {
+        if (isRented) {
+            System.out.println("The car is currently rented.");
+        } else {
+            System.out.println("The car is available for rent.");
+        }
+    }
+}
